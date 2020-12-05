@@ -1,10 +1,19 @@
 import React from 'react';
+import GlobalStyle from './styles/global';
+import { ThemeProvider } from 'styled-components'
+import theme from './styles/theme';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+
+      <GlobalStyle />
+    </ThemeProvider>
   );
 }
 
