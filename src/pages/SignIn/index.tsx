@@ -9,13 +9,16 @@ import {ToastContainer } from 'react-toastify';
 
 import PurpleIcon from '../../assets/icons/purple-heart.svg'
 import { Link } from 'react-router-dom';
+import { useAuth } from '../../hooks/useAuth';
 
 const SignIn: React.FC = ()=> {
+    const { signIn } = useAuth();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
-    async function handleAuthenticate(){
-            // dispatch(actions.authenticate({email, password}, 'login'))
+    async function handleAuthenticate(e: React.FormEvent){
+          e.preventDefault()
+          await signIn({email, password})
     }
 
     return(
@@ -27,7 +30,7 @@ const SignIn: React.FC = ()=> {
             </div>
             <ToastContainer />
     
-            <div className="inputs">
+            <form onSubmit={e => handleAuthenticate(e)} className="inputs">
                 <InputForm
                 label="E-mail"
                 name="email"
@@ -44,17 +47,17 @@ const SignIn: React.FC = ()=> {
                 onChange={e => setPassword(e.target.value)}
                 required
                 />
-            <div className="buttons-container">
-    
-                <div className="second-line">
-                <button onClick={handleAuthenticate} className="button"
-                    type="button"
-                >
-                    Entrar
-                </button>
+                <div className="buttons-container">
+        
+                    <div className="second-line">
+                    <button className="button"
+                        type="submit"
+                    >
+                        Entrar
+                    </button>
+                    </div>
                 </div>
-            </div>
-            </div>
+            </form>
   
             <div className="footer">
                 <div className="signup-container">

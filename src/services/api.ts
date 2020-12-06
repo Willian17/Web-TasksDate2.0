@@ -1,10 +1,10 @@
 import axios from 'axios'
-const API_URL = process.env.API_URL
-const token = 'token';
+const token = localStorage.getItem('@TasksDate: token');
+
 
 
 const api = axios.create({
-    baseURL: API_URL, 
+    baseURL: process.env.REACT_APP_API, 
     headers: {'Authorization': `bearer ${token}` } 
 })
 

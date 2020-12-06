@@ -45,6 +45,7 @@ const Signup: React.FC = ()=> {
             router.push('/signup-sucess')
         })
         .catch(err => {
+            console.error(err.response.data)
             if(err.response){
                 toast.error(err.response.data)
             } else {
