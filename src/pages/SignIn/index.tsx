@@ -12,13 +12,14 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 
 const SignIn: React.FC = ()=> {
-    const { signIn } = useAuth();
+    const { signIn, user } = useAuth();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
     async function handleAuthenticate(e: React.FormEvent){
           e.preventDefault()
           await signIn({email, password})
+          console.log(user)
     }
 
     return(
