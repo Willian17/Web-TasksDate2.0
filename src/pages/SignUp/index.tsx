@@ -42,7 +42,7 @@ const Signup: React.FC = ()=> {
 
         api.post('/students/signup', values)
         .then(()=> {
-            router.push('/signup-sucess')
+            router.push('/cadastro/aluno/sucesso')
         })
         .catch(err => {
             console.error(err.response.data)
