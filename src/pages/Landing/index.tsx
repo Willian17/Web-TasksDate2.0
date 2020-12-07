@@ -64,12 +64,12 @@ const Landing: React.FC = () => {
           </div>
 
           <div className="buttons-container">
-            <Link to="/task-list" className="study">
+            <Link to="/lista/tarefas" className="study">
                 <img src={TaskListIcon} alt="Listar tasks" />
                 Ver tasks
             </Link>
 
-            <Link to="/task-form" className="give-classes" >
+            <Link to="/criar/tarefa" className="give-classes" >
                 <img src={TaskFormIcon} alt="Dar aulas" />
                 Criar tasks
             </Link>

@@ -35,7 +35,7 @@ const Signup: React.FC = ()=> {
         password: '',
         avatar: ''
     }
-    const {values,handleChangeValues,clearForm} = useForm(initialValues)
+    const {values,handleChangeValues} = useForm(initialValues)
 
     function handleCreateStudent(event: any){
         event.preventDefault();
