@@ -10,9 +10,11 @@ import {
     TasksList
 } from './styles'
 import formatDate from '../../utils/formatDate';
+import { useAuth } from '../../hooks/useAuth';
 
 
 const ListTask: React.FC = () => {
+    const {user} = useAuth()
     const [tasks, setTasks] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
@@ -23,7 +25,8 @@ const ListTask: React.FC = () => {
          }).catch(err => {
              console.error(err)
          })
-    },[])
+    },[user.id])
+
     return(
         <TaskContainer>
             <Header title="Estas são as tarefas atuais"/>
