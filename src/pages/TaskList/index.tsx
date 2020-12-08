@@ -24,10 +24,10 @@ const ListTask: React.FC = () => {
              setTasks(response.data)
              setIsLoading(false)
          }).catch(err => {
-             console.error(err)
+             console.error(err.data.message)
          })
          
-    },[user.id])
+    },[])
 
     return(
         <TaskContainer>
