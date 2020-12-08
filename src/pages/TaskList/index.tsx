@@ -10,16 +10,13 @@ import {
     TasksList
 } from './styles'
 import formatDate from '../../utils/formatDate';
-import { useAuth } from '../../hooks/useAuth';
 
 
 const ListTask: React.FC = () => {
-    const {user} = useAuth()
     const [tasks, setTasks] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(()=>{
-        console.log(user.id)
          api.get('/tasks').then(response => {
              setTasks(response.data)
              setIsLoading(false)
