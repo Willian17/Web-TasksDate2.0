@@ -12,7 +12,7 @@ import {
 
 } from './styles'
 import BackIcon from '../../assets/icons/back.svg'
-import LogoImg from '../../assets/icons/back.svg'
+import LogoImg from '../../assets/logo.svg'
 
 
 interface PageHeaderProps {

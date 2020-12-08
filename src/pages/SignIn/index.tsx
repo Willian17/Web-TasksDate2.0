@@ -5,21 +5,28 @@ import InputForm from '../../components/InputForm';
 import Aside from '../../components/Aside';
 
 import {PageLogin} from './styles'
-import {ToastContainer } from 'react-toastify';
+import {toast, ToastContainer } from 'react-toastify';
 
 import PurpleIcon from '../../assets/icons/purple-heart.svg'
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 
 const SignIn: React.FC = ()=> {
-    const { signIn, user } = useAuth();
+    const { signIn } = useAuth();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
     async function handleAuthenticate(e: React.FormEvent){
           e.preventDefault()
-          await signIn({email, password})
-          console.log(user)
+          try {
+              await signIn({email, password});
+         } catch (err) {
+            if(err.response){
+                toast.error(err.response.data.error)
+            } else {
+                toast.error('Ocorreu um erro inesperado, tente novamente mais tarde!')
+            }
+          }
     }
 
     return(
