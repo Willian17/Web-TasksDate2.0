@@ -19,12 +19,14 @@ const ListTask: React.FC = () => {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(()=>{
+        console.log(user.id)
          api.get('/tasks').then(response => {
              setTasks(response.data)
              setIsLoading(false)
          }).catch(err => {
              console.error(err)
          })
+         
     },[user.id])
 
     return(
