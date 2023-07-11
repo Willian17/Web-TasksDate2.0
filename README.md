@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center"> Web TasksDate </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/Willian17/Web-TasksDate2.0">
+    <img alt="stars" src="https://img.shields.io/github/stars/Willian17/Web-TasksDate2.0?logo=github">
+    <img alt="size" src="https://img.shields.io/github/repo-size/Willian17/Web-TasksDate2.0">
+    <img alt="license" src="https://img.shields.io/github/license/Willian17/Web-TasksDate2.0">
+  </p>
+  
+  <p align="center">
+    <a href="#sobre">Sobre</a> •
+    <a href="#funcionalidades">Funcionalidades</a> •
+    <a href="#executar">Executar</a> •
+    <a href="#tecnologias">Tecnologias</a> •
+    <a href="#contribuidores">Contribuidores</a> •
+    <a href="#contribuir">Contribuir</a> •
+    <a href="#licenca">Licença</a>
+  </p>
+  
+  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#sobre-o-projeto)
 
-## Available Scripts
+## :pushpin: Sobre o Projeto <a name="sobre"></a>
 
-In the project directory, you can run:
+  <p>Web de gestão de tarefas academicas, usada no IFMT Campus rondonóplis, esse projeto foi usado na displina Projeto Integrador, no curso técnico em informática EMI </p>
+  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/2663c187-b93f-4601-93ac-521185b15a22" width="400px">
+  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/fd1d3b77-2835-45a5-b0cb-635bbee38c15" width="400px">
+  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/ba90b8aa-6079-47d1-b195-85874f3b357a" width="400px">
+  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/4de6ab49-7357-4c5b-8dec-888884bdf443" width="400px">
+  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/086ddcd4-d6ca-4861-905a-f131bf82b491" width="400px">
+  
+  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#funcionalidades)
 
-### `yarn start`
+## :rocket: Funcionalidades <a name="funcionalidades"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Autenticação
+- [x] Agendar Atividade (Professor)
+- [x] Visualizar atividades
+- [x] Marcar atividade como concluida
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#executar)
 
-### `yarn test`
+## :construction_worker: Como executar <a name="executar"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pré-requisitos
 
-### `yarn build`
+Ter o <a href="https://nodejs.org/en/">Node.js</a> instalado na maquina. <br/> <br/>
+Copiar o arquivo <a href="https://github.com/Willian17/Web-TasksDate2.0/blob/master/.env.development">.env.development</a> para .env com as variaveis do ambiente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Clonar Repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+$ git clone https://github.com/Willian17/Web-TasksDate2.0.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalar Dependencias
 
-### `yarn eject`
+```
+$ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Executar Aplicação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](##tecnologias)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :computer: Tecnologias <a name="tecnologias"></a>
 
-## Learn More
+<ul>
+<li>NodeJS</li>
+<li>React</li>
+<li>Typescript</li>
+<li>Styled Components</li>
+</ul>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contribuidores <a name="contribuidores"></a>
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<a href = "https://github.com/Willian17/Web-TasksDate2.0/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Willian17/Web-TasksDate2.0"/>
+</a>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contribuidores)
+
+## 😄 Seja um dos contribuidores<br> <a name="contribuir"></a>
+
+Contribuições são sempre bem-vindas!
+
+1. Fork o Projeto
+2. Criar uma Branch (git checkout -b feature/AmazingFeature)
+3. Commit suas alterações (git commit -m 'Add some AmazingFeature)
+4. Push na Branch (git push origin feature/AmazingFeature)
+5. Abra um Pull Request
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#licensa)
+
+## 📝 Licença <a name="licenca"></a>
+
+Esse projeto está sob licença [MIT](LICENSE).
+
+## :man_astronaut: Mostre seu apoio
+
+Dê uma ⭐️ se esse projeto te ajudou!
