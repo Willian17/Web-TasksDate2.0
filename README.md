@@ -1,10 +1,10 @@
 <h1 align="center"> Web TasksDate </h1>
 
   <p align="center">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/Willian17/Web-TasksDate2.0">
-    <img alt="stars" src="https://img.shields.io/github/stars/Willian17/Web-TasksDate2.0?logo=github">
-    <img alt="size" src="https://img.shields.io/github/repo-size/Willian17/Web-TasksDate2.0">
-    <img alt="license" src="https://img.shields.io/github/license/Willian17/Web-TasksDate2.0">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/Willian17/API-TasksDate">
+    <img alt="stars" src="https://img.shields.io/github/stars/Willian17/API-TasksDate?logo=github">
+    <img alt="size" src="https://img.shields.io/github/repo-size/Willian17/API-TasksDate">
+    <img alt="license" src="https://img.shields.io/github/license/Willian17/API-TasksDate">
   </p>
   
   <p align="center">
@@ -22,11 +22,12 @@
 ## :pushpin: Sobre o Projeto <a name="sobre"></a>
 
   <p>Web de gestão de tarefas academicas, usada no IFMT Campus rondonóplis, esse projeto foi usado na displina Projeto Integrador, no curso técnico em informática EMI </p>
-  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/2663c187-b93f-4601-93ac-521185b15a22" width="400px">
-  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/fd1d3b77-2835-45a5-b0cb-635bbee38c15" width="400px">
-  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/ba90b8aa-6079-47d1-b195-85874f3b357a" width="400px">
-  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/4de6ab49-7357-4c5b-8dec-888884bdf443" width="400px">
-  <img src="https://github.com/Willian17/Web-TasksDate2.0/assets/53010824/086ddcd4-d6ca-4861-905a-f131bf82b491" width="400px">
+  
+  <img src="https://github.com/Willian17/API-TasksDate/assets/53010824/2663c187-b93f-4601-93ac-521185b15a22" width="400px">
+  <img src="https://github.com/Willian17/API-TasksDate/assets/53010824/fd1d3b77-2835-45a5-b0cb-635bbee38c15" width="400px">
+  <img src="https://github.com/Willian17/API-TasksDate/assets/53010824/ba90b8aa-6079-47d1-b195-85874f3b357a" width="400px">
+  <img src="https://github.com/Willian17/API-TasksDate/assets/53010824/4de6ab49-7357-4c5b-8dec-888884bdf443" width="400px">
+  <img src="https://github.com/Willian17/API-TasksDate/assets/53010824/086ddcd4-d6ca-4861-905a-f131bf82b491" width="400px">
   
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#funcionalidades)
 
